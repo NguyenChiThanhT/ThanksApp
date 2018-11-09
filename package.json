@@ -1,0 +1,36 @@
+{
+  "name": "ThanksApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^5.5.7",
+    "native-base": "^2.8.1",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-chooser": "^1.7.0",
+    "react-native-dialog": "^5.4.0",
+    "react-native-document-picker": "git://github.com/Elyx0/react-native-document-picker.git#v3",
+    "react-native-prompt-crossplatform": "^1.6.1",
+    "react-native-simple-dialogs": "^1.0.0",
+    "react-native-simple-modal": "^9.0.1",
+    "react-native-vector-icons": "^6.0.2",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.13"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "5.0.2",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
